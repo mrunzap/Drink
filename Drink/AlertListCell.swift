@@ -30,4 +30,6 @@ class AlertListCell: UITableViewCell {
         UserDefaults.standard.set(try? PropertyListEncoder().encode(alerts),
                                   forKey: "alerts")
     }
+    
+    
 }
